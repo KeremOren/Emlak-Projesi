@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emlak Projesi</title>
+    <!-- BURAYA EKLE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Emlak Projesi</h1>
+    </header>
+    <main>
+        <section class="filters">
+            <h2>Filtreler</h2>
+            <label for="city">Şehir:</label>
+            <select id="city">
+                <option value="all">Tümü</option>
+                <option value="istanbul">İstanbul</option>
+                <option value="ankara">Ankara</option>
+                <option value="izmir">İzmir</option>
+                <option value="izmir">Bursa</option>
+                <option value="izmir">Adana</option>
+                <option value="izmir">Adıyaman</option>
+                <option value="izmir">Afyonkarahisar</option>
+                <option value="izmir">Ağrı</option>
+                <option value="izmir">Aksaray</option>
+                <option value="izmir">Amasya</option>
+                <option value="izmir">Antalya</option>
+                <option value="izmir">Ardahan</option>
+                <option value="izmir">Artvin</option>
+                <option value="izmir">Aydın</option>
+                <option value="izmir">Balıkesir</option>
+                <option value="izmir">Bartın</option>
+                <option value="izmir">Batman</option>
+                <option value="izmir">Bayburt</option>
+                <option value="izmir">Bilecik</option>
+                <option value="izmir">Bingöl</option>
+                <option value="izmir">Bitlis</option>
+                <option value="izmir">Bolu</option>
+                <option value="izmir">Burdur</option>
+                <option value="izmir">Çanakkale</option>
+                <option value="izmir">Çankırı</option>
+                <option value="izmir">Çorum</option>
+                <option value="izmir">Denizli</option>
+                <option value="izmir">Diyarbakır</option>
+                <option value="izmir">Düzce</option>
+                <option value="izmir">Edirne</option>
+                <option value="izmir">Elazığ</option>
+                <option value="izmir">Erzincan</option>
+                <option value="izmir">Erzurum</option>
+                <option value="izmir">Eskişehir</option>
+                <option value="izmir">Gaziantep</option>
+                <option value="izmir">Giresun</option>
+                <option value="izmir">Gümüşhane</option>
+                <option value="izmir">Hakkari</option>
+                <option value="izmir">Hatay</option>
+                <option value="izmir">Iğdır</option>
+                <option value="izmir">Isparta</option>
+                <option value="izmir">Kahramanmaraş</option>
+                <option value="izmir">Karabük</option>
+                <option value="izmir">Karaman</option>
+                <option value="izmir">Kars</option>
+                <option value="izmir">Kastamonu</option>
+                <option value="izmir">Kayseri</option>
+                <option value="izmir">Kırıkkale</option>
+                <option value="izmir">Kırklareli</option>
+                <option value="izmir">Kırşehir</option>
+                <option value="izmir">Kilis</option>
+                <option value="izmir">Kocaeli</option>
+                <option value="izmir">Konya</option>
+                <option value="izmir">Kütahya</option>
+                <option value="izmir">Malatya</option>
+                <option value="izmir">Manisa</option>
+                <option value="izmir">Mardin</option>
+                <option value="izmir">Mersin</option>
+                <option value="izmir">Muğla</option>
+                <option value="izmir">Muş</option>
+                <option value="izmir">Nevşehir</option>
+                <option value="izmir">Niğde</option>
+                <option value="izmir">Ordu</option>
+                <option value="izmir">Osmaniye</option>
+                <option value="izmir">Rize</option>
+                <option value="izmir">Sakarya</option>
+                <option value="izmir">Samsun</option>
+                <option value="izmir">Siirt</option>
+                <option value="izmir">Sinop</option>
+                <option value="izmir">Sivas</option>
+                <option value="izmir">Şanlıurfa</option>
+                <option value="izmir">Şırnak</option>
+                <option value="izmir">Tekirdağ</option>
+                <option value="izmir">Tokat</option>
+                <option value="izmir">Trabzon</option>
+                <option value="izmir">Tunceli</option>
+                <option value="izmir">Uşak</option>
+                <option value="izmir">Van</option>
+                <option value="izmir">Yalova</option>
+                <option value="izmir">Yozgat</option>
+                <option value="izmir">Zonguldak</option>
+            </select>
+
+            <label for="price">Maksimum Fiyat:</label>
+            <input type="number" id="price" placeholder="Fiyat Girin">
+
+            <button id="filterBtn">Filtrele</button>
+        </section>
+        <section class="listings">
+            <h2>İlanlar</h2>
+            <div id="properties"></div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,3 +1,4 @@
+/* Genel Ayarlar */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,17 +6,22 @@ body {
     background-color: #f5f5f5;
 }
 
+/* Header */
 header {
     background-color: #007bff;
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    height: 100px; /* Header yüksekliği sabitleniyor */
+    display: flex; /* Flexbox ile hizalama yapılacak */
+    justify-content: center; /* Yatayda ortalar */
+    align-items: center; /* Dikeyde ortalar */
 }
 
+/* Main İçerik */
 main {
     padding: 20px;
 }
 
+/* Filtreler */
 .filters {
     margin-bottom: 20px;
     background-color: white;
@@ -24,6 +30,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* İlanlar */
 .listings {
     background-color: white;
     padding: 15px;
@@ -39,3 +46,4 @@ main {
 .property:last-child {
     border-bottom: none;
 }
+
